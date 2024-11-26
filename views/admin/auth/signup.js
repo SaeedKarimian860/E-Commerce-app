@@ -1,5 +1,5 @@
 module.exports = ({ req }) => {
-    return `
+  return `
      <div>
         Your id is: ${req.session.userId}
         <form method="POST">
